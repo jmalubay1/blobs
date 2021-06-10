@@ -9,7 +9,7 @@ To run the game all the user needs to do is execute cargo run from the source fo
 ```bash
 cargo run
 ```
-![Screenshot](/screen.jpg)
+![Screenshot](/Screen.jpg)
 
 The player can move their character with the W,A,S,D keys, and attack the blobs with the arrow keys.  The safe rooms will randomly spawn around the map every game.  The player can only exit the rooms through the doors, the single lines on the center of each wall. When the player is inside the room the blobs cannot see or attack.  Once the player is outside and in range of the blobs they will move towards the player and attack when they are adjacent.  
 
