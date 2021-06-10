@@ -18,6 +18,6 @@ Throughout the quarter I have been working on this while going through the [Rogu
 
 I really liked working with the Component system from the SPECS library to control what attributes entities have.  It makes it easier to add new features and functions with out entirely changing how each entity is made.  Instead new attributes are added at creation as components.  This makes accessing their attributes a but more work as each function has to be given the data of each component instead of just the entity itself.
 
-If I had more time I would like to finish the game and polish up the functionality.  Right now the player cannot shoot at the blobs as I had intended. I could not figure out a way to draw and animate the lasers on the turn based system the tutorial uses.
+If I had more time I would like to finish the game and polish up the functionality.  Right now the player cannot shoot at the blobs as I had intended. I could not figure out a way to draw and animate the lasers on the turn based system the tutorial uses. Since the animation is halted while waiting for the player's next action. I was not able to fully implement the winning conditions so the the only thing that happens is the player runs around and dies with crashes the game since there is no test.  I bit off a bit more than I could chew and did not have enough time to do all this myself. 
 
 [LICENSE](/LICENSE.txt)
